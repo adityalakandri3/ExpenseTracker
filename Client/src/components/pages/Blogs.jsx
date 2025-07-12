@@ -116,7 +116,7 @@ const Blogs = () => {
           <Grid container spacing={3}>
             {paginatedPosts.map((post) => {
               const imageUrl = post?.image
-                ? `http://localhost:3006/${post.image.replace(/\\/g, "/")}`
+                ? `https://expensifybackend.onrender.com/${post.image.replace(/\\/g, "/")}`
                 : "";
 
               return (

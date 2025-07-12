@@ -28,7 +28,7 @@ const Profile = () => {
   const user = data?.data;
 
   const imageUrl = user?.image
-    ? `http://localhost:3006/${user.image.replace(/\\/g, "/")}`
+    ? `https://expensifybackend.onrender.com/${user.image.replace(/\\/g, "/")}`
     : "";
 
   const logout = useLogout();
