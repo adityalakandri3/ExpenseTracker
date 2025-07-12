@@ -6,7 +6,7 @@ const path = require("path");
 const createToken = require("../helper/createTokenforAdmin");
 const jwt = require("jsonwebtoken");
 const transporter = require("../config/emailConfig");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 class AdminController {
   //admin middleware
   async CheckAuth(req, res, next) {
