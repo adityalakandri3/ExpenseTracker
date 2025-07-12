@@ -1,0 +1,46 @@
+{
+    "swaggerDefinition": {
+        "openapi": "3.0.0",
+        "info": {
+            "title": "Expense Tracker",
+            "version": "1.0.0",
+            "description": "Expense Tracker API documentation created by Aditya Lakandri"
+        },
+        "servers": [
+            {
+                "url": "http://localhost:3006"
+            }
+        ],
+        "components": {
+            "securitySchemes": {
+                "AuthHeader": {
+                    "type": "apiKey",
+                    "in": "header",
+                    "name": "authorization"
+                }
+            }
+        },
+        "security": [
+            {
+                "AuthHeader": []
+            }
+        ],
+        "tags": [
+            {
+                "name": "User",
+                "description": "User Signup and SignIn API"
+            },
+            {
+                "name":"Blog Category",
+                "description":"Blog Category API"
+            },
+            {
+                "name": "Blog",
+                "description": "Blog API"
+            }
+        ]
+    },
+    "apis": [
+        "./app/router/*.js"
+    ]
+}

@@ -1,0 +1,120 @@
+4. Expense Tracker & Budget Planner
+Overview: Personal finance tool to log expenses, set budgets, and view insights.
+Backend: User auth, CRUD for expenses, budget category APIs.
+React Devs: Dashboard with graphs (Recharts), filters, forms for data entry.
+UI/UX: Mobile-first design, minimalist dashboard, graph visualization.
+HTML: Landing page, pricing, FAQs.
+QA: Test data input, category filters, mobile responsiveness.
+
+Here's a detailed scope of work for your student group’s project: Expense Tracker & Budget Planner, structured so that each team member has clear and balanced responsibilities, and the project can be completed within 20 days.
+
+💰 Project Title: Expense Tracker & Budget Planner
+🎯 Overview:
+A web-based application to help users:
+•	Log their daily/weekly/monthly expenses
+•	Set budgets across categories
+•	Visualize spending with charts
+•	Stay on top of their finances with a clean and user-friendly dashboard
+
+👨‍💻 1. Backend Developer (Node.js or Python + MongoDB)
+Responsibilities:
+•	Implement REST APIs for:
+•	User registration & login (JWT authentication)
+•	Create, Read, Update, Delete (CRUD) for:
+•	Expenses
+•	Budget categories
+•	User settings (currency, limits, etc.)
+•	MongoDB Schemas:
+•	User
+•	Expense
+•	Budget
+•	Define and enforce user-level access
+•	Add input validation, error handling, and pagination where necessary
+•	Seed database with test data for initial testing (e.g. expenses for 30 days)
+
+⚛️ 2. React Developer #1 – Dashboard & Charts (Data Visualization)
+Responsibilities:
+•	Create the main dashboard showing:
+•	Total spending
+•	Current vs. remaining budget
+•	Spending trends using Recharts (Bar, Pie, Line)
+•	Expense Filtering:
+•	By date range
+•	By category
+•	By amount range
+•	Use Redux or Context API for state management
+•	Ensure dynamic data updates with API integration
+
+⚛️ 3. React Developer #2 – Forms & User Flow
+Responsibilities:
+•	Expense input form:
+•	Add new expense (amount, category, date, note)
+•	Edit/delete existing entries
+•	Budget setup form:
+•	Set monthly/weekly budgets per category (e.g., Food, Travel)
+•	Update limits
+•	Profile/settings page (currency, reset data)
+•	Form validation and UI feedback
+
+🎨 4. UI/UX Designer
+Responsibilities:
+•	Design a mobile-first layout with responsive components
+•	Pages to design:
+•	Login/Register
+•	Dashboard (with charts/cards)
+•	Budget planner
+•	Expense tracker
+•	Profile/settings
+•	Visual consistency with light color palette, minimalist design
+•	Design icons for categories (Food, Travel, Bills, Shopping, etc.)
+•	Export design assets and style guide (font sizes, colors, spacing)
+Tools: Figma / Adobe XD
+
+🖥️ 5. HTML Developer
+Responsibilities:
+•	Build the following static pages using HTML5/CSS3:
+•	Landing Page: App intro, features, benefits
+•	Pricing Page: Free vs Pro plan comparison (UI only)
+•	FAQs: Collapsible Q&A section
+•	Terms of Use & Privacy Policy
+•	Add responsive layout using media queries
+•	Coordinate closely with UI/UX for layout and typography
+•	Use semantic HTML and proper accessibility tags
+
+🧪 6. QA Engineer (Quality Analyst)
+Responsibilities:
+•	Functional Testing:
+•	Add/Edit/Delete expense functionality
+•	Budget alerts and chart correctness
+•	Filtering and chart data consistency
+•	UI/UX Testing:
+•	Responsiveness on mobile, tablet, desktop
+•	Dark mode (if included)
+•	Navigation issues, misalignment, broken links
+•	Cross-browser testing (Chrome, Firefox, Safari)
+•	API Testing with Postman:
+•	Auth, CRUD operations
+•	Prepare a bug report + final test summary
+
+🗓️ Suggested Timeline (20 Days)
+Days	Activities
+Day 1–3	Wireframing, backend setup, project structure, design planning
+Day 4–6	API development, HTML pages, basic UI components
+Day 7–10	Dashboard + charts, forms, budget tracking features
+Day 11–14	Integration of frontend with backend, profile/settings, final styling
+Day 15–17	Testing phase, QA bug logging, final UI polish
+Day 18–20	Bug fixes, deployment, demo recording, final documentation
+
+🛠️ Optional Add-ons (if time permits)
+•	Currency converter (via API)
+•	Recurring expenses
+•	Export to PDF or CSV
+•	Email budget alert notifications
+
+
+
+Visual DFD
+
+ERD for this project
+
+
