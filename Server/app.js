@@ -20,7 +20,7 @@ dbConnect()
 
 //setting up cors
 app.use(cors({
-  origin: 'https://mern-frontend.onrender.com', // frontend Render URL
+  origin: 'https://expensifyfrontend.onrender.com', // frontend Render URL
   credentials: true,
 }));
 //sessions and cookies
