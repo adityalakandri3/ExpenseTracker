@@ -95,7 +95,7 @@ app.use(CommentRoute);
 const ContactRoute = require('./app/router/ContactRouter');
 app.use(ContactRoute);
 //listening port
-const port = 3006;
+const port = process.env.PORT || 3006 ;
 app.listen(port,()=>{
     console.log(`Server is running at port: ${port}`)
 })
