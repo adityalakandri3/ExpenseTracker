@@ -50,7 +50,7 @@ const Header = () => {
   // Convert image path to valid URL
   const imagePath = data?.data?.image;
   const fixedImageURL = imagePath
-    ? `http://localhost:3006/${imagePath.replace(/\\/g, "/")}`
+    ? `https://expensifybackend.onrender.com/${imagePath.replace(/\\/g, "/")}`
     : null;
 
   return (
