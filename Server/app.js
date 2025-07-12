@@ -19,9 +19,10 @@ dotenv.config();
 dbConnect()
 
 //setting up cors
-app.use(cors());
-
-
+app.use(cors({
+  origin: 'https://mern-frontend.onrender.com', // frontend Render URL
+  credentials: true,
+}));
 //sessions and cookies
 app.use(session({
     secret: 'keyboardcat',
