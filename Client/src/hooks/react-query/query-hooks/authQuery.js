@@ -1,9 +1,9 @@
 import { useMutation, useQuery } from "@tanstack/react-query";
 import { useGlobalHooks } from "../../GlobalHooks";
-import { signup } from "../../../Api/functions/userSignUp";
+import { verifyOtp } from "../../../api/functions/OtpVerify";
 import { BUDGET, CATEGORY, EXPENSE, USERS } from "../query-keys/QueryKeys";
-import { verifyOtp } from "../../../Api/functions/OtpVerify";
-import { signin } from "../../../Api/functions/userSignIn";
+import { signup } from "../../../api/functions/userSignUp";
+import { signin } from "../../../api/functions/userSignIn";
 import { toast } from "react-toastify";
 import { dashboard } from "../../../api/functions/profile";
 import { fetchUserProfile } from "../../../api/functions/profileData";
