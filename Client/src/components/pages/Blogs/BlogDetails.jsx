@@ -48,7 +48,7 @@ const BlogDetails = () => {
 
   const post = data.data;
   const imageUrl = post.image
-    ? `http://localhost:3006/${post.image.replace(/\\/g, "/")}`
+    ? `https://expensifybackend.onrender.com/${post.image.replace(/\\/g, "/")}`
     : "";
   const formattedDate = new Date(post.createdAt).toLocaleDateString("en-IN", {
     year: "numeric",
