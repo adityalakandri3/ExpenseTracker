@@ -14,3 +14,5 @@ Password:12345678
 GitHub :https://github.com/adityalakandri3/ExpenseTracker
 
 Live: https://expensifyfrontend.onrender.com/
+
+Swagger:http://localhost:3006/api-docs/#/
